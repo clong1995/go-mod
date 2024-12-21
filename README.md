@@ -75,16 +75,17 @@
    ```
    func Decode(encoded string) (result int64)
    ```
+6. 非xor编码:
+   > 为什么要有这个函数?  
+   > 某些情境下,需要保存或对比id
+   ```
+   func EncodeNoXor(num int64) string
+   ```
 
 ## go-server
 
-* 地址: [go-db](https://github.com/clong1995/go-server)
-* 说明:
-* 用法:
-
-```go
-
-```
+### 地址: [go-server](https://github.com/clong1995/go-server)
+### 说明:
 
 ## go-encipher
 
